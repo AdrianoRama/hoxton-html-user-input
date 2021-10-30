@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        
+<form action="/Thanks/index.html">
+    <header><h1>Hey there!</h1></header>
+<label class="id" for="a">What's your name?</label>
+    <label><input id="a" type="text" placeholder="Enter your name" required /> </label>
+    <hr>
+    <label class="address" for="b">What's your email address?</label>
+    <label><input id="b" type="email" placeholder="Enter your email address" required /> </label>
+    <hr>
+    <label class="services" for="c">What services are you looking for?</label>
+    <label><select name="serv" id="c">
+        <option value="choose" value="11" style="font-weight: bold"><b>Choose a service</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>Mixing</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>Mastering</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>Music Production</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>Music Promotion</b></option>
+    </select>
+    <hr>
+    <label class="budget" for="d">What is your budget?</label>
+    <label><select name="budg" id="d">
+        <option value="choose" value="11" style="font-weight: bold"><b>Select budget</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>100-1k</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>2k-10k</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>11k-100k</b></option>
+        <option value="choose" value="11" style="font-weight: bold"><b>I'll give you my soul</b></option>
+    </select>
+    <hr>
+    <label class="comment" for="e">Anything else you'd like to tell us?</label>
+    <label><textarea name="anything" id="e" cols="40" rows="3" placeholder="Your message here..."></textarea>
+    <hr>
+    <label id="f" for="g">I agree with the T&Cs.</label><label><input id="g" type="checkbox"></label>
+    <button type="submit">Submit</button>
+</form>
+    </main>
+</body>
+</html>

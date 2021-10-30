@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 24vw;
+    height: 74vh;
+    position: relative;
+    display: grid;
+    left: 38vw;
+    top: 13vh;
+    box-shadow: 10px 1px 40px #d89cff, -1em 10px 40px #50bef1;
+    border-radius: 0.5rem;
+}
+
+main h1 {
+    color: #b552f7;
+    display: grid;
+    position: relative;
+    justify-content: center;
+    margin: 20px;
+    font-size: 35px;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #50bef1, #b552f7, #b552f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+form {
+    font-size: 0.7rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-family: sans-serif;
+}
+
+input {
+    outline: none;
+    border: none;
+    display: block;
+}
+
+
+
